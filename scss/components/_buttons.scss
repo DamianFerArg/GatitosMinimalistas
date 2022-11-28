@@ -1,0 +1,12 @@
+.btn__index {
+    background-color: $color-primario;
+    color: black;
+    transition: 1s ;
+    &:hover {
+        scale: 1.2;
+
+
+        background-color: $color-primario;
+        color: black;
+    }
+}
