@@ -5,8 +5,17 @@
     &:hover {
         scale: 1.2;
 
-
         background-color: $color-primario;
         color: black;
     }
+}
+
+.prueba:hover{
+    scale: 1;
+    transition: 1s ;
+}
+
+.prueba{
+    scale: 0.9;
+    transition: 1s 
 }

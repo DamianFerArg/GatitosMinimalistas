@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
+  background-image: linear-gradient(to right bottom, #FFE9F3, #F49097, #FF3864, #450920);
 }
 
 header {
@@ -20,17 +20,28 @@ header {
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 .btn__index {
-  background-color: #F9A826;
+  background-color: #61cdff;
   color: black;
   transition: 1s;
 }
 .btn__index:hover {
   scale: 1.2;
-  background-color: #F9A826;
+  background-color: #61cdff;
   color: black;
+}
+
+.prueba:hover {
+  scale: 1;
+  transition: 1s;
+}
+
+.prueba {
+  scale: 0.9;
+  transition: 1s;
 }
 
 /*# sourceMappingURL=styles.css.map */
