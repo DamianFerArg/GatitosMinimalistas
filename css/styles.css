@@ -18,9 +18,30 @@ header {
   overflow: hidden;
 }
 
+h2, h3 {
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+.tarjeta {
+  min-width: 370px;
+  transition: 1s;
+}
+
+.golden {
+  background: linear-gradient(45deg, rgb(242, 215, 12) 0%, rgb(255, 255, 255) 56%, rgb(252, 235, 0) 96%);
+}
+
+.silver {
+  background: linear-gradient(45deg, #A8A9AD 20%, #ffffff 56%, #A8A9AD 86%);
+}
+
+.rose {
+  background: linear-gradient(45deg, #F49097 20%, #ffffff 56%, #F49097 86%);
 }
 
 .btn__index {
@@ -34,14 +55,19 @@ a {
   color: black;
 }
 
-.prueba:hover {
+.entrada:hover {
   scale: 1;
   transition: 1s;
 }
 
-.prueba {
+.entrada {
   scale: 0.9;
   transition: 1s;
+}
+
+.imagen {
+  width: 100%;
+  scale: 0.7;
 }
 
 /*# sourceMappingURL=styles.css.map */

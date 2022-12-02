@@ -1,0 +1,16 @@
+.tarjeta {
+    min-width: 370px;
+    transition: 1s;
+}
+
+.golden {
+    background: linear-gradient(45deg,  rgba(242,215,12,1) 0%,rgba(255,255,255,1) 56%,rgba(252,235,0,1) 96%);
+}
+
+.silver{
+    background: linear-gradient(45deg, #A8A9AD 20%, #ffffff 56%, #A8A9AD 86%);
+}
+
+.rose{
+    background: linear-gradient(45deg, #F49097 20%, #ffffff 56%, #F49097 86%);
+}
