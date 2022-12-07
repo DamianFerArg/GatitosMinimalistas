@@ -51,7 +51,7 @@
     <main>
         <section class="container my-5 ">
             <div class="row">
-                <div class="col-lg-6 order-lg-last">
+                <div class="col-lg-6 order-last">
                     <img src="./assets/gato__tarjeta.png" alt="tarjeta de debito de gatos" class="img-fluid entrada">
                 </div>
                 <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
@@ -68,16 +68,19 @@
 
         <section class="container my-5">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-last order-md-first my-3">
                     <div class="card text-center">
                         <div class="card-header">
                             Plan barato
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">
+                                <div class="d-inline text-decoration-line-through">$400</div> $199 <span
+                                    class="badge bg-secondary">20% OFF</span>
+                            </h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
-                            <a href="#" class="btn btn-primary">Muestrame mas!</a>
+                            <a href="#" class="btn btn-primary">Quiero este plan!</a>
                         </div>
                     </div>
                     <div class="card text-center my-5">
@@ -85,10 +88,13 @@
                             Plan no tan barato
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">
+                                <div class="d-inline text-decoration-line-through">$700</div> $499 <span
+                                    class="badge bg-secondary">20% OFF</span>
+                            </h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
-                            <a href="#" class="btn btn-primary">Muestrame mas!</a>
+                            <a href="#" class="btn btn-primary">Quiero este plan!</a>
                         </div>
                     </div>
                     <div class="card text-center">
@@ -96,10 +102,13 @@
                             Plan pipícucú
                         </div>
                         <div class="card-body">
-                            <h5 class="card-title">Special title treatment</h5>
+                            <h5 class="card-title">
+                                <div class="d-inline text-decoration-line-through">$1000</div> $799 <span
+                                    class="badge bg-secondary">20% OFF</span>
+                            </h5>
                             <p class="card-text">With supporting text below as a natural lead-in to additional content.
                             </p>
-                            <a href="#" class="btn btn-primary">Muestrame mas!</a>
+                            <a href="#" class="btn btn-primary">Quiero este plan!</a>
                         </div>
                     </div>
                 </div>
@@ -110,44 +119,95 @@
                         Minima culpa quae doloribus ad delectus earum! Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Delectus placeat ut quis nihil quae eveniet?</p>
                     <div class="d-flex justify-content-center justify-content-lg-end">
-                        <a href="#" class="btn btn__index">Quiero mi plan!</a>
+                        <a href="#" class="btn btn__index">Quiero saber mas!</a>
                     </div>
                 </div>
 
-                <section class="container my-5">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <img class="imagen" src="./assets/gato_mensaje.png" alt="">
+
+
+
+
+
+
+        </section>
+
+
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-lg-6 order-last">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
                         </div>
-                        <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
-                            <h1 class="display-1 text-center text-lg-start fw-bold">NOTIFICACIONES GUACHIGUAU</h1>
-                            <p class="text-center text-lg-start">Lorem, ipsum dolor sit amet consectetur adipisicing
-                                elit. Minima culpa quae doloribus ad delectus earum! Lorem ipsum dolor sit amet
-                                consectetur adipisicing elit. Delectus placeat ut quis nihil quae eveniet?</p>
-                            <div class="d-flex justify-content-center justify-content-lg-start">
-                                <a href="" class="btn btn__index">Quiero mi tarjeta!</a>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./assets/Landscape with Info.png" class="d-block w-100 carousel__imagen" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./assets/Landscape with Info (1).png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Landscape with Info (2).png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assets/Landscape with Info (3).png" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
                             </div>
                         </div>
-
-
-
-
-
-
-
-
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
+                </div>
+                <div class="col-lg-6 d-lg-flex flex-lg-column justify-content-center">
+                    <h1 class="display-1 text-center text-lg-start fw-bold">DISEÑOS A ELECCION</h1>
+                    <p class="text-center text-lg-start">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Minima culpa quae doloribus ad delectus earum! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Delectus placeat ut quis nihil quae eveniet?</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="" class="btn btn__index">Quiero mi tarjeta!</a>
+                    </div>
+                </div>
 
 
 
 
 
-                </section>
 
 
 
+            </div>
 
-
+        </section>
 
 
 
