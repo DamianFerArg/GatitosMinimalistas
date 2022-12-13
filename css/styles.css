@@ -44,10 +44,6 @@ a {
   background: linear-gradient(45deg, #F49097 20%, #ffffff 56%, #F49097 86%);
 }
 
-.carousel__imagen {
-  scale: 0.7;
-}
-
 .btn__index {
   background-color: #61cdff;
   color: black;
