@@ -32,26 +32,31 @@ a {
   transition: 1s;
 }
 
-.golden {
-  background: linear-gradient(45deg, rgb(242, 215, 12) 0%, rgb(255, 255, 255) 56%, rgb(252, 235, 0) 96%);
-}
-
-.silver {
-  background: linear-gradient(45deg, #A8A9AD 20%, #ffffff 56%, #A8A9AD 86%);
-}
-
-.rose {
-  background: linear-gradient(45deg, #F49097 20%, #ffffff 56%, #F49097 86%);
-}
-
 .plan {
-  transition: 1s;
-}
-.plan:hover {
-  transform: translateX(30px);
-  transition: 1s;
+  background-color: #f5dee0;
+  color: black;
 }
 
+@media (min-width: 900px) {
+  .plan {
+    transition: 1s;
+  }
+  .plan:hover {
+    background-color: #F49097;
+    transform: translateX(30px);
+    transition: 1s;
+  }
+}
+@media (max-width: 900px) {
+  .plan {
+    scale: 1;
+    transition: 1s;
+  }
+  .plan:hover {
+    background-color: #F49097;
+    transition: 1s;
+  }
+}
 .telefono {
   scale: 0.8;
   transition: 1s;
@@ -62,14 +67,23 @@ a {
 }
 
 .btn__index {
-  background-color: #61cdff;
-  color: black;
+  background-color: black;
+  color: white;
   transition: 1s;
 }
 .btn__index:hover {
   scale: 1.2;
-  background-color: #61cdff;
-  color: black;
+  background-color: black;
+  color: #F49097;
+}
+
+.boton {
+  background-color: black;
+  color: white;
+}
+.boton:hover {
+  background-color: black;
+  color: #F49097;
 }
 
 .entrada:hover {

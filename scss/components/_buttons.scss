@@ -1,13 +1,21 @@
 .btn__index {
-    background-color: $color-primario;
-    color: black;
+    background-color: $color-secundario;
+    color: $color-letra;
     transition: 1s;
 
     &:hover {
         scale: 1.2;
 
-        background-color: $color-primario;
-        color: black;
+        background-color: $color-secundario;
+        color: $color-hover;
     }
 }
 
+.boton{
+    background-color: $color-secundario;
+    color: $color-letra;
+    &:hover{
+        background-color: black;
+        color: $color-hover;
+    }
+}

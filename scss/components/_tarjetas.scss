@@ -3,32 +3,41 @@
     transition: 1s;
 }
 
-.golden {
-    background: linear-gradient(45deg,  rgba(242,215,12,1) 0%,rgba(255,255,255,1) 56%,rgba(252,235,0,1) 96%);
+.plan {
+    background-color: #f5dee0;
+    color: black;
 }
 
-.silver{
-    background: linear-gradient(45deg, #A8A9AD 20%, #ffffff 56%, #A8A9AD 86%);
-}
+@media (min-width:900px) {
+    .plan {
+        transition: 1s;
 
-.rose{
-    background: linear-gradient(45deg, #F49097 20%, #ffffff 56%, #F49097 86%);
-}
-
-.plan{
-    transition: 1s;
-    &:hover{
-        transform: translateX(30px);
-        transition: 1s;  
+        &:hover {
+            background-color: $color-hover;
+            transform: translateX(30px);
+            transition: 1s;
+        }
     }
 }
 
-.telefono{
+@media (max-width:900px) {
+    .plan {
+        scale: 1;
+        transition: 1s;
+
+        &:hover {
+            background-color: $color-hover;
+            transition: 1s;
+        }
+    }
+}
+
+.telefono {
     scale: 0.8;
     transition: 1s;
-    &:hover{
+
+    &:hover {
         transform: translateY(-30px);
         transition: 1s;
     }
 }
-
