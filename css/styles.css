@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right bottom, #FFE9F3 20%, #F49097 40%, #FF3864, #450920 97%);
+  background-color: #f79aa1;
 }
 
 header {
@@ -24,6 +24,10 @@ h2, h3 {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+.footcolor {
   color: black;
 }
 
@@ -99,6 +103,15 @@ a {
 .imagen {
   width: 100%;
   scale: 0.7;
+}
+
+.titulo {
+  background-color: #f88a91;
+  font-size: 5rem;
+}
+
+.imagen__planes {
+  height: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
