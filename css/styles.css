@@ -1,8 +1,8 @@
 * {
   list-style: none;
   text-decoration: none;
-  margin: 0%;
-  padding: 0%;
+  margin: 0px;
+  padding: 0px;
   font-family: "Montserrat", "Roboto", sans-serif;
 }
 
@@ -10,15 +10,21 @@ body {
   background-color: #f79aa1;
 }
 
+.footbase {
+  background-color: #F49097;
+}
+
 header {
   background-image: black;
+  background-color: #F49097;
 }
 
 .logo {
   overflow: hidden;
 }
 
-h2, h3 {
+h2,
+h3 {
   text-align: center;
 }
 
@@ -46,7 +52,7 @@ a {
     transition: 1s;
   }
   .plan:hover {
-    background-color: #F49097;
+    background-color: #f35b65;
     transform: translateX(30px);
     transition: 1s;
   }
@@ -57,7 +63,7 @@ a {
     transition: 1s;
   }
   .plan:hover {
-    background-color: #F49097;
+    background-color: #f35b65;
     transition: 1s;
   }
 }
@@ -106,12 +112,66 @@ a {
 }
 
 .titulo {
-  background-color: #f88a91;
+  background-image: url(/assets/planes.svg);
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   font-size: 5rem;
+  padding: 10rem;
+  font-weight: 800;
 }
 
-.imagen__planes {
+@media (max-width: 900px) {
+  .titulo {
+    padding: 5rem;
+  }
+}
+.plan__venta1 {
+  background-image: url(/assets/humanoyanimal.svg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5dee0;
+  height: 20rem;
+  padding: 3rem;
+}
+
+.plan__venta2 {
+  background-image: url(/assets/restaurante.svg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5dee0;
+  height: 23rem;
+  padding: 3rem;
+}
+
+.plan__venta3 {
+  background-image: url(/assets/peli.svg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f5dee0;
+  height: 25rem;
+  padding: 3rem;
+}
+
+.img {
+  overflow: hidden;
+}
+.img__planes {
   height: 300px;
+}
+
+.plan__texto {
+  background-color: rgba(15, 7, 7, 0.2941176471);
+  border-radius: 15px;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

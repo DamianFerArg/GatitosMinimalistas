@@ -1,8 +1,8 @@
 * {
     list-style: none;
     text-decoration: none;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
     font-family: "Montserrat", "Roboto", sans-serif;
 }
 
@@ -10,15 +10,21 @@ body {
     background-color: #f79aa1;
 }
 
+.footbase {
+    background-color: #F49097;
+}
+
 header {
     background-image: black;
+    background-color: #F49097;
 }
 
 .logo {
     overflow: hidden;
 }
 
-h2, h3{
+h2,
+h3 {
     text-align: center;
 }
 
@@ -26,4 +32,3 @@ a {
     text-decoration: none;
     color: black;
 }
-

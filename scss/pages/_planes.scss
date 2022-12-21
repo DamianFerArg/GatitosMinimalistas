@@ -1,8 +1,65 @@
-.titulo{
-    background-color: #f88a91;
+.titulo {
+    background-image: url(/assets/planes.svg);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
     font-size: 5rem;
+    padding: 10rem;
+    font-weight: 800;
 }
 
-.imagen__planes{
-    height: 300px;
+@media (max-width:900px) {
+    .titulo {
+        padding: 5rem;
+    }
+}
+
+.plan__venta1 {
+    background-image: url(/assets/humanoyanimal.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5dee0;
+    height: 20rem;
+    padding: 3rem;
+}
+
+.plan__venta2 {
+    background-image: url(/assets/restaurante.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5dee0;
+    height: 23rem;
+    padding: 3rem;
+}
+
+.plan__venta3 {
+    background-image: url(/assets/peli.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f5dee0;
+    height: 25rem;
+    padding: 3rem;
+}
+
+.img {
+    overflow: hidden;
+
+    &__planes {
+        height: 300px;
+
+    }
+}
+
+.plan__texto {
+    background-color: #0f07074b;
+    border-radius: 15px;
+    color: white;
 }
