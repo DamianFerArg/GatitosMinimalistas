@@ -12,6 +12,7 @@ const tarjetaBarata = 200
 const tarjetaNoTanBarata = 500
 const tarjetaPipicucu = 900
 
+
 let Nombre = prompt("Como es su nombre?");
 
 do {
