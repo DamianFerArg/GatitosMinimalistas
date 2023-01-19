@@ -34,3 +34,4 @@ do {
     }
 
 } while (gasto < 300)
+
